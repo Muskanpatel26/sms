@@ -1,15 +1,15 @@
 import React from "react"
 import { Switch,Route } from "react-router-dom";
+import StartupPage from "./pages/StartupPage";
 
 
 function App() {
   return (
-    <switch>
+    <Switch>
       <Route exact path="/">
-
+     <StartupPage/>
       </Route>
-      
-    </switch>
+    </Switch>
   );
 }
 
